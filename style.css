@@ -93,3 +93,58 @@ body {
     border-color: #ff9800;
     background-color: #fff8e1;
 }
+/* Remove Default Margin */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.navbar {
+    background-color: black;
+    padding: 15px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+/* Navigation */
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: gold;
+}
+
+/* Button */
+.login-btn {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: white;
+}
