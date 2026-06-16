@@ -286,9 +286,7 @@ body {
 }
 
 
-/* ==========================
-   Tablet Devices (768px)
-========================== */
+
 @media screen and (min-width: 426px) and (max-width: 768px) {
 
     .navbar {
@@ -326,9 +324,7 @@ body {
 }
 
 
-/* ==========================
-   Laptop/Desktop (1024px)
-========================== */
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     .navbar {
