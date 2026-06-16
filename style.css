@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
 }
@@ -205,4 +206,152 @@ body {
 .footer-copy {
     color: #7b8794;
     font-size: 14px;
+}
+
+
+@media screen and (max-width: 426px) {
+
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 15px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .login-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .banner-section {
+        padding: 80px 20px;
+    }
+
+    .banner-section h1 {
+        font-size: 30px;
+    }
+
+    .banner-section p {
+        font-size: 16px;
+    }
+
+    .btn {
+        display: block;
+        margin: 10px auto;
+        width: 150px;
+    }
+
+    .menu-section {
+        padding: 20px;
+    }
+
+    .food-card {
+        width: 100%;
+        max-width: 300px;
+        margin: 15px auto;
+        display: block;
+    }
+
+    .footer-heading {
+        font-size: 24px;
+    }
+
+    .footer-description {
+        font-size: 14px;
+    }
+
+    .social-icons {
+        gap: 12px;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+/* ==========================
+   Tablet Devices (768px)
+========================== */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .nav-links a {
+        font-size: 15px;
+    }
+
+    .banner-section h1 {
+        font-size: 38px;
+    }
+
+    .banner-section p {
+        font-size: 18px;
+    }
+
+    .menu-section {
+        padding: 30px;
+    }
+
+    .food-card {
+        width: 250px;
+        margin: 10px;
+    }
+
+    .footer-heading {
+        font-size: 28px;
+    }
+}
+
+
+/* ==========================
+   Laptop/Desktop (1024px)
+========================== */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .nav-links a {
+        font-size: 17px;
+    }
+
+    .banner-section h1 {
+        font-size: 42px;
+    }
+
+    .banner-section p {
+        font-size: 20px;
+    }
+
+    .food-card {
+        width: 280px;
+    }
 }
