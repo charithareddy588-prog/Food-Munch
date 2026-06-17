@@ -116,6 +116,10 @@ body {
     height: 70px;
 }
 
+.logo:hover {
+    transform: scale(1.15);
+}
+
 /* Navigation */
 .nav-links {
     list-style-type: none;
